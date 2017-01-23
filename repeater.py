@@ -28,5 +28,17 @@ def run_tests():
 
 
 def is_repeated(nums):
+    count= 0 
+    n = nums[0]
+    if nums.count(n) == 2:
+        
+  
+        print("Repeated")
+
+    else:
+        print("Unique")
+    
+ 
+    
 
 

@@ -29,5 +29,14 @@ def run_tests():
 
 
 def clean(nums, n):
+    if n not in nums:
+        print(nums)
+    else:
+        count= 0
+        times = nums.count(n)
+        for i in range(times):
+            nums.remove(n)
+        print(nums) 
+        
 
 
